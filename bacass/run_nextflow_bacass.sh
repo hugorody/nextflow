@@ -1,1 +1,1 @@
-nextflow run nf-core/bacass -profile docker --input input_bacass.csv --assembly_type 'long' --assembler 'dragonflye' --kraken2db "https://genome-idx.s3.amazonaws.com/kraken/k2_standard_8gb_20210517.tar.gz" --outdir result_bacass --skip_kmerfinder true
+nextflow run nf-core/bacass -profile docker --input input_bacass.csv --assembly_type 'long' --assembler 'dragonflye' --kraken2db "https://genome-idx.s3.amazonaws.com/kraken/k2_standard_8gb_20210517.tar.gz" --outdir result_bacass --skip_kmerfinder true -c nextflow.config
